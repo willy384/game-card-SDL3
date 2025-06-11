@@ -1,9 +1,22 @@
-how to make install.
+# **Download**
 
-*step 1*
+## **Build**
+**Requeriments**
+>[vscode](https://code.visualstudio.com)
 
-cmake .\CMakeLists.txt -G "MinGW Makefiles" -S . -B build
+>[git](https://git-scm.com/downloads)
 
-*step 2*
+>[cmake](https://cmake.org)
 
-make .\build\
+>[mingw](https://sourceforge.net/projects/mingw/)
+
+
+open terminal in vscode `ctrl+'`
+
+`git clone https://github.com/willy384/game-card.git`
+
+`cd game-card`
+
+`cmake .\CMakeLists.txt -G "MinGW Makefiles" -S . -B build`
+
+`make .\build\`
